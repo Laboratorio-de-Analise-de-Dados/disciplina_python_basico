@@ -8,14 +8,14 @@ Carolina Zem
 Emanuele Oliveira Jarno
 Gabriela Maria da Costa Ferreira - https://github.com/GbrielaMaria/Python
 Gabriela Marino Koerich
-Hector Hugo Furini
+Hector Hugo Furini - https://github.com/hector-furini/Disciplina-PBp-Python
 Isabel de Farias Ribeiro - https://github.com/isabeldfribeiro/Disciplina_python
 Isadora Celine Rodrigues Carneiro Camargo
-Julia Cardoso da Silva
+Julia Cardoso da Silva - https://github.com/cardosojulias/Mestrado_python_julia
 Julia Weber Ferraboli - https://github.com/jwferraboli/aulagithub.git
-Livia Mendes Zacharow Pedroso
+Livia Mendes Zacharow Pedroso - https://github.com/Livia-Zacharow/aulas_python_doutorado.git
 Lucas Herrero Matias
-Mario Kujbida
+Mario Kujbida - https://github.com/Mario-Kujbida/Python-B-sico.git
 Mateus Marchetto
 Matheus Schipanski
 Natália Jeanegitz da Silva - https://github.com/njeanegitz/aula-python.git
@@ -25,5 +25,5 @@ Paulo Henrique Moro dos Santos - https://github.com/paulo-moro/disciplina_python
 Rafael Uhlik Veiga
 Rodrigo Alexandre Lusa - https://github.com/Rodrigo-Lusa/aulas_python_mestrado.git
 Sophia Pereira Ozorio - https://github.com/SophiaOzorio/mestrado_python
-Thais Agata Veiga Ferreira
+Thais Agata Veiga Ferreira - https://github.com/tveigaferreira-hue/phyton-.git
 Yasmin Soares - https://github.com/yasminsoares01/aulas-Phyton
