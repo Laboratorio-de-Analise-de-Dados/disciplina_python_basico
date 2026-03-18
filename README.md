@@ -62,8 +62,8 @@ Na
 
 Modo de entrega: notebook.ipynb
 
-Prazo: o commit deve ser feito até o dia <font color="red">17/04<br>
-NÃO VAMOS POSTERGAR</font><br><br>
+Prazo: o commit deve ser feito até o dia <span style="color:blue">17/04<br>
+NÃO VAMOS POSTERGAR</span><br><br>
 
 Aos alunos do PPGBB, Regimento no Item 6.2, pág. 16, para a conversão das porcentagens das notas em conceitos, seguindo tabela adaptada abaixo:
 <br><br>
