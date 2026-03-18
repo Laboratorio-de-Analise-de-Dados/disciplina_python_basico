@@ -62,15 +62,15 @@ Na
 
 Modo de entrega: notebook.ipynb
 
-Prazo: o commit deve ser feito até o dia <style color:"red">17/04
-NÃO VAMOS POSTERGAR</style>
+Prazo: o commit deve ser feito até o dia <font color="red">17/04<br>
+NÃO VAMOS POSTERGAR</font><br><br>
 
 Aos alunos do PPGBB, Regimento no Item 6.2, pág. 16, para a conversão das porcentagens das notas em conceitos, seguindo tabela adaptada abaixo:
-
-Conceito A - Entre 90% e 100% (rendimento excelente);
-Conceito B - Entre 75% e 89% (rendimento bom);
-Conceito C - Entre 60% e 74% (rendimento regular);
-Conceito D - Inferior a 60% (rendimento insuficiente).
+<br><br>
+- Conceito A - Entre 90% e 100% (rendimento excelente);
+- Conceito B - Entre 75% e 89% (rendimento bom);
+- Conceito C - Entre 60% e 74% (rendimento regular);
+- Conceito D - Inferior a 60% (rendimento insuficiente).
 
 ##	Número máximo de alunos: 
 20 alunos.
