@@ -1,0 +1,29 @@
+Guilherme/Disciplina -> https://github.com/Laboratorio-de-Analise-de-Dados/disciplina_python_basico.git
+Alessandra Conti Gomes de Souza
+Aline de Carvalho ->https://github.com/aline-bio/python-basico.git
+Bianca Nichele Kusma
+Camilla Leitzke Toledo
+Camilla Maia Moraes-> https://github.com/camss36/Python_b-sico_Camilla_Maia.git
+Carolina Zem
+Emanuele Oliveira Jarno
+Gabriela Maria da Costa Ferreira - https://github.com/GbrielaMaria/Python
+Gabriela Marino Koerich
+Hector Hugo Furini
+Isabel de Farias Ribeiro - https://github.com/isabeldfribeiro/Disciplina_python
+Isadora Celine Rodrigues Carneiro Camargo
+Julia Cardoso da Silva
+Julia Weber Ferraboli - https://github.com/jwferraboli/aulagithub.git
+Livia Mendes Zacharow Pedroso
+Lucas Herrero Matias
+Mario Kujbida
+Mateus Marchetto
+Matheus Schipanski
+Natália Jeanegitz da Silva - https://github.com/njeanegitz/aula-python.git
+Natalia Zureck Xavier https://github.com/NataliaZureck/AulaPythonBasico.git
+Nicholas Yuri Naufal
+Paulo Henrique Moro dos Santos - https://github.com/paulo-moro/disciplina_python_doc
+Rafael Uhlik Veiga
+Rodrigo Alexandre Lusa - https://github.com/Rodrigo-Lusa/aulas_python_mestrado.git
+Sophia Pereira Ozorio - https://github.com/SophiaOzorio/mestrado_python
+Thais Agata Veiga Ferreira
+Yasmin Soares - https://github.com/yasminsoares01/aulas-Phyton
