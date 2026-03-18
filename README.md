@@ -57,6 +57,21 @@ Na
 15.	Medidas resumo 1 - tendência central (média, mediana, moda);
 16.	Medidas resumo 2 - variabilidade (mínimo, máximo, variância, Intervalo Interquartil);
 
+## Avaliação:
+16 aulas com exercícios em 14 delas;
+
+Modo de entrega: notebook.ipynb
+
+Prazo: o commit deve ser feito até o dia <style color:"red">17/04
+NÃO VAMOS POSTERGAR</style>
+
+Aos alunos do PPGBB, Regimento no Item 6.2, pág. 16, para a conversão das porcentagens das notas em conceitos, seguindo tabela adaptada abaixo:
+
+Conceito A - Entre 90% e 100% (rendimento excelente);
+Conceito B - Entre 75% e 89% (rendimento bom);
+Conceito C - Entre 60% e 74% (rendimento regular);
+Conceito D - Inferior a 60% (rendimento insuficiente).
+
 ##	Número máximo de alunos: 
 20 alunos.
 
