@@ -1,7 +1,7 @@
 Guilherme/Disciplina -> https://github.com/Laboratorio-de-Analise-de-Dados/disciplina_python_basico.git
 Alessandra Conti Gomes de Souza
 Aline de Carvalho ->https://github.com/aline-bio/python-basico.git
-Bianca Nichele Kusma
+Bianca Nichele Kusma - https://github.com/biancankusma/python_basico.git
 Camilla Leitzke Toledo
 Camilla Maia Moraes-> https://github.com/camss36/Python_b-sico_Camilla_Maia.git
 Carolina Zem
@@ -17,7 +17,7 @@ Livia Mendes Zacharow Pedroso - https://github.com/Livia-Zacharow/aulas_python_d
 Lucas Herrero Matias
 Mario Kujbida - https://github.com/Mario-Kujbida/Python-B-sico.git
 Mateus Marchetto
-Matheus Schipanski
+Matheus Schipanski - https://github.com/matcow/Aula-Python
 Natália Jeanegitz da Silva - https://github.com/njeanegitz/aula-python.git
 Natalia Zureck Xavier https://github.com/NataliaZureck/AulaPythonBasico.git
 Nicholas Yuri Naufal

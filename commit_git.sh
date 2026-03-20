@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# tree -a -f > estrutura_diretorio.txt
+# tree -a -f > directories.txt
 
 git add .
 git commit -m "$1"
