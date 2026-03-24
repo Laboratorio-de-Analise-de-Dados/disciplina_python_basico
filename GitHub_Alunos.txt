@@ -1,28 +1,28 @@
-1. Guilherme/Disciplina -> https://github.com/Laboratorio-de-Analise-de-Dados/disciplina_python_basico.git
-2. Alessandra Conti Gomes de Souza
-3. Aline de Carvalho ->https://github.com/aline-bio/python-basico.git
+1. Guilherme/Disciplina - https://github.com/Laboratorio-de-Analise-de-Dados/disciplina_python_basico.git
+2. Alessandra Conti Gomes de Souza - https://github.com/alecgsbr-web/Aula-Phyton
+3. Aline de Carvalho - https://github.com/aline-bio/python-basico.git
 4. Bianca Nichele Kusma - https://github.com/biancankusma/python_basico.git
-5. Camilla Leitzke Toledo
-6. Camilla Maia Moraes-> https://github.com/camss36/Python_b-sico_Camilla_Maia.git
+5. Camilla Leitzke Toledo - https://github.com/camilaltoledo0502-art/Entregas-de-atividades-aula-Python-.git
+6. Camilla Maia Moraes- https://github.com/camss36/Python_b-sico_Camilla_Maia.git
 7. Carolina Zem - https://github.com/zemsacional/Aulas_Python
-8. Emanuele Oliveira Jarno
+8. Emanuele Oliveira Jarno: https://github.com/emanuelejarno/Aula-de-mestrado
 9. Gabriela Maria da Costa Ferreira - https://github.com/GbrielaMaria/Python
-10. Gabriela Marino Koerich
+10. Gabriela Marino Koerich- https://github.com/GabrielaKoerich/Mestrado-Python-Basico
 11. Hector Hugo Furini - https://github.com/hector-furini/Disciplina-PBp-Python
 12. Isabel de Farias Ribeiro - https://github.com/isabeldfribeiro/Disciplina_python
 13. Isadora Celine Rodrigues Carneiro Camargo - https://github.com/isacarneiro/python_basic_2026
 14. Julia Cardoso da Silva - https://github.com/cardosojulias/Mestrado_python_julia
 15. Julia Weber Ferraboli - https://github.com/jwferraboli/aulagithub.git
 16. Livia Mendes Zacharow Pedroso - https://github.com/Livia-Zacharow/aulas_python_doutorado.git
-17. Lucas Herrero Matias
+17. Lucas Herrero Matias - https://github.com/lherreromatias/Disciplina_pyton
 18. Mario Kujbida - https://github.com/Mario-Kujbida/Python-B-sico.git
-19. Mateus Marchetto
+19. Mateus Marchetto - https://github.com/marchettom/Disciplina-Python
 20. Matheus Schipanski - https://github.com/matcow/Aula-Python
 21. Natália Jeanegitz da Silva - https://github.com/njeanegitz/aula-python.git
-22. Natalia Zureck Xavier https://github.com/NataliaZureck/AulaPythonBasico.git
-23. Nicholas Yuri Naufal -> https://github.com/nicholasynaufal/Disciplina_Python.git
+22. Natalia Zureck Xavier - https://github.com/NataliaZureck/AulaPythonBasico.git
+23. Nicholas Yuri Naufal - https://github.com/nicholasynaufal/Disciplina_Python.git
 24. Paulo Henrique Moro dos Santos - https://github.com/paulo-moro/disciplina_python_doc
-25. Rafael Uhlik Veiga
+25. Rafael Uhlik Veiga - https://github.com/R-Zurik/Projeto-Inicial-Teste
 26. Rodrigo Alexandre Lusa - https://github.com/Rodrigo-Lusa/aulas_python_mestrado.git
 27. Sophia Pereira Ozorio - https://github.com/SophiaOzorio/mestrado_python
 28. Thais Agata Veiga Ferreira - https://github.com/tveigaferreira-hue/phyton-.git
