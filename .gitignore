@@ -3,5 +3,5 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .coverage
-# exercicios/
+praticas_old/
 exercicios_resolvidos/
