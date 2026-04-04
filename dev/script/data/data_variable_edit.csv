@@ -1,0 +1,181 @@
+Sample,DV1 BR90,DV2 265,DV3 98,DV4 360,Cells,Treatment
+Sample 1,44.54,39.56,81.42,48.23,CD4/CD8/CD19,Untreated
+Sample 2,52.17,52.71,52.13,49.19,CD4/CD8/CD19,Untreated
+Sample 3,45.37,52.28,42.48,50.88,CD4/CD8/CD19,Untreated
+Sample 4,52.38,52.49,58.69,38.85,CD4/CD8/CD19,Untreated
+Sample 5,49.51,51.85,51.1,47.4,CD4/CD8/CD19,Untreated
+Sample 6,50.16,53.19,50.76,46.78,CD4/CD8/CD19,Untreated
+Sample 1,23.44,19.5,27.48,25.89,CD4/CD8,Untreated
+Sample 2,25.76,26.92,32.45,27.97,CD4/CD8,Untreated
+Sample 3,29.13,35.21,36.23,29.84,CD4/CD8,Untreated
+Sample 4,25.75,26.92,32.06,28.35,CD4/CD8,Untreated
+Sample 5,26.92,29.72,33.58,28.62,CD4/CD8,Untreated
+Sample 6,27.19,30.55,33.96,28.91,CD4/CD8,Untreated
+Sample 1,4.23,4.1,17.12,6.18,CD14,Untreated
+Sample 2,5.58,4.12,12.19,3.13,CD14,Untreated
+Sample 3,3.31,2.68,7.7,2.59,CD14,Untreated
+Sample 4,5.54,4.39,12.34,6.66,CD14,Untreated
+Sample 5,4.67,3.82,10.74,4.64,CD14,Untreated
+Sample 6,4.77,3.75,10.26,4.26,CD14,Untreated
+Sample 1,20.0,19.02,51.24,21.21,CD19,Untreated
+Sample 2,25.04,24.44,18.78,20.1,CD19,Untreated
+Sample 3,15.4,16.17,6.02,19.92,CD19,Untreated
+Sample 4,25.25,24.24,25.35,10.02,CD19,Untreated
+Sample 5,21.42,20.97,16.72,17.81,CD19,Untreated
+Sample 6,21.78,21.45,16.03,16.96,CD19,Untreated
+Sample 1,6.65,3.24,9.12,7.16,CD4,Untreated
+Sample 2,6.4,5.83,8.08,6.14,CD4,Untreated
+Sample 3,6.15,8.41,7.03,5.12,CD4,Untreated
+Sample 4,6.4,5.83,8.08,6.14,CD4,Untreated
+Sample 5,6.32,6.69,7.73,5.8,CD4,Untreated
+Sample 6,6.29,6.98,7.61,5.69,CD4,Untreated
+Sample 1,18.2,17.6,22.33,20.32,CD8,Untreated
+Sample 2,21.14,22.75,26.17,23.18,CD8,Untreated
+Sample 3,24.07,27.9,30.0,26.03,CD8,Untreated
+Sample 4,21.14,22.75,26.17,23.18,CD8,Untreated
+Sample 5,22.12,24.47,27.45,24.13,CD8,Untreated
+Sample 6,22.44,25.04,27.88,24.45,CD8,Untreated
+Sample 1,18.54,16.09,35.69,20.24,CD4/CD8/CD19,5 ug
+Sample 2,18.45,18.82,25.13,18.12,CD4/CD8/CD19,5 ug
+Sample 3,15.74,18.38,17.59,17.24,CD4/CD8/CD19,5 ug
+Sample 4,18.78,18.8,26.13,15.9,CD4/CD8/CD19,5 ug
+Sample 5,17.54,18.5,22.95,17.34,CD4/CD8/CD19,5 ug
+Sample 6,17.62,18.79,22.22,17.09,CD4/CD8/CD19,5 ug
+Sample 1,13.4,11.2,16.03,14.8,CD4/CD8,5 ug
+Sample 2,12.01,12.53,14.59,12.95,CD4/CD8,5 ug
+Sample 3,11.78,14.22,14.4,12.11,CD4/CD8,5 ug
+Sample 4,12.29,12.57,15.01,13.36,CD4/CD8,5 ug
+Sample 5,12.04,13.11,14.66,12.77,CD4/CD8,5 ug
+Sample 6,12.02,13.27,14.69,12.74,CD4/CD8,5 ug
+Sample 1,1.97,1.91,6.24,2.88,CD14,5 ug
+Sample 2,2.6,1.92,6.78,1.46,CD14,5 ug
+Sample 3,1.54,1.25,3.93,1.21,CD14,5 ug
+Sample 4,2.58,2.05,5.65,3.1,CD14,5 ug
+Sample 5,2.18,1.78,5.45,2.16,CD14,5 ug
+Sample 6,2.22,1.75,5.01,1.99,CD14,5 ug
+Sample 1,4.89,4.65,18.67,5.18,CD19,5 ug
+Sample 2,6.12,5.97,10.06,4.91,CD19,5 ug
+Sample 3,3.76,3.95,3.07,4.87,CD19,5 ug
+Sample 4,6.17,5.92,10.6,2.45,CD19,5 ug
+Sample 5,5.23,5.12,7.91,4.35,CD19,5 ug
+Sample 6,5.32,5.24,7.19,4.14,CD19,5 ug
+Sample 1,3.69,1.8,5.07,3.98,CD4,5 ug
+Sample 2,2.91,2.65,3.67,2.79,CD4,5 ug
+Sample 3,2.46,3.36,2.81,2.05,CD4,5 ug
+Sample 4,3.02,2.6,3.85,2.94,CD4,5 ug
+Sample 5,2.8,2.87,3.44,2.59,CD4,5 ug
+Sample 6,2.76,2.94,3.37,2.53,CD4,5 ug
+Sample 1,10.11,9.78,12.41,11.29,CD8,5 ug
+Sample 2,9.61,10.34,11.9,10.53,CD8,5 ug
+Sample 3,9.63,11.16,12.0,10.41,CD8,5 ug
+Sample 4,9.78,10.43,12.1,10.74,CD8,5 ug
+Sample 5,9.67,10.64,12.0,10.56,CD8,5 ug
+Sample 6,9.7,10.74,12.03,10.57,CD8,5 ug
+Sample 1,7.26,5.14,18.91,3.52,CD4/CD8/CD19,10 ug
+Sample 2,7.26,5.14,18.91,3.52,CD4/CD8/CD19,10 ug
+Sample 3,6.05,9.66,2.76,3.43,CD4/CD8/CD19,10 ug
+Sample 4,7.28,7.29,9.35,1.91,CD4/CD8/CD19,10 ug
+Sample 5,6.64,7.4,6.17,2.81,CD4/CD8/CD19,10 ug
+Sample 6,6.78,8.23,6.08,2.85,CD4/CD8/CD19,10 ug
+Sample 1,4.73,2.73,0.78,0.85,CD4/CD8,10 ug
+Sample 2,4.73,2.73,0.78,0.85,CD4/CD8,10 ug
+Sample 3,4.1,7.61,0.65,0.89,CD4/CD8,10 ug
+Sample 4,4.08,4.21,0.1,0.67,CD4/CD8,10 ug
+Sample 5,3.92,4.74,0.13,0.56,CD4/CD8,10 ug
+Sample 6,4.02,5.51,0.22,0.7,CD4/CD8,10 ug
+Sample 1,1.35,1.3,4.91,1.97,CD14,10 ug
+Sample 2,1.35,1.3,4.91,1.97,CD14,10 ug
+Sample 3,1.05,0.85,2.4,0.82,CD14,10 ug
+Sample 4,1.76,1.4,3.78,2.12,CD14,10 ug
+Sample 5,1.49,1.22,3.41,1.48,CD14,10 ug
+Sample 6,1.52,1.19,3.2,1.36,CD14,10 ug
+Sample 1,2.41,2.3,18.68,2.56,CD19,10 ug
+Sample 2,2.41,2.3,18.68,2.56,CD19,10 ug
+Sample 3,1.86,1.95,2.03,2.41,CD19,10 ug
+Sample 4,3.05,2.93,8.99,1.21,CD19,10 ug
+Sample 5,2.59,2.53,5.76,2.15,CD19,10 ug
+Sample 6,2.63,2.59,5.59,2.05,CD19,10 ug
+Sample 1,1.23,0.48,0.17,0.03,CD4,10 ug
+Sample 2,1.23,0.48,0.17,0.03,CD4,10 ug
+Sample 3,1.33,2.4,0.46,0.24,CD4,10 ug
+Sample 4,1.36,1.19,0.23,0.1,CD4,10 ug
+Sample 5,1.4,1.42,0.25,0.12,CD4,10 ug
+Sample 6,1.36,1.67,0.31,0.15,CD4,10 ug
+Sample 1,3.72,2.46,0.42,1.08,CD8,10 ug
+Sample 2,3.72,2.46,0.42,1.08,CD8,10 ug
+Sample 3,2.94,5.37,0.45,0.84,CD8,10 ug
+Sample 4,3.0,3.27,0.41,0.76,CD8,10 ug
+Sample 5,2.76,3.54,0.41,0.65,CD8,10 ug
+Sample 6,2.9,4.06,0.42,0.75,CD8,10 ug
+Sample 1,3.18,4.01,1.34,1.43,CD4/CD8/CD19,20 ug
+Sample 2,2.9,2.85,6.05,1.98,CD4/CD8/CD19,20 ug
+Sample 3,5.14,4.24,3.85,2.22,CD4/CD8/CD19,20 ug
+Sample 4,3.73,3.7,3.75,1.87,CD4/CD8/CD19,20 ug
+Sample 5,3.92,3.59,4.55,2.02,CD4/CD8/CD19,20 ug
+Sample 6,4.26,3.84,4.04,2.04,CD4/CD8/CD19,20 ug
+Sample 1,1.74,2.57,0.13,0.01,CD4/CD8,20 ug
+Sample 2,1.26,1.21,0.13,0.34,CD4/CD8,20 ug
+Sample 3,3.4,2.5,2.48,0.48,CD4/CD8,20 ug
+Sample 4,2.13,2.1,0.75,0.27,CD4/CD8,20 ug
+Sample 5,2.26,1.93,1.03,0.36,CD4/CD8,20 ug
+Sample 6,2.59,2.17,1.41,0.37,CD4/CD8,20 ug
+Sample 1,1.49,1.49,3.82,1.49,CD14,20 ug
+Sample 2,1.25,1.25,3.17,1.25,CD14,20 ug
+Sample 3,1.51,1.51,1.43,1.51,CD14,20 ug
+Sample 4,1.42,1.42,2.81,1.42,CD14,20 ug
+Sample 5,1.39,1.39,2.47,1.39,CD14,20 ug
+Sample 6,1.44,1.44,2.24,1.44,CD14,20 ug
+Sample 1,1.38,1.38,1.44,1.38,CD19,20 ug
+Sample 2,1.57,1.57,5.88,1.57,CD19,20 ug
+Sample 3,1.67,1.67,1.32,1.67,CD19,20 ug
+Sample 4,1.54,1.54,2.88,1.54,CD19,20 ug
+Sample 5,1.59,1.59,3.36,1.59,CD19,20 ug
+Sample 6,1.6,1.6,2.52,1.6,CD19,20 ug
+Sample 1,1.39,1.98,0.1,0.03,CD4,20 ug
+Sample 2,1.0,0.87,0.28,0.22,CD4,20 ug
+Sample 3,2.26,1.61,1.56,0.31,CD4,20 ug
+Sample 4,1.55,1.49,0.65,0.19,CD4,20 ug
+Sample 5,1.6,1.32,0.83,0.24,CD4,20 ug
+Sample 6,1.8,1.47,1.01,0.25,CD4,20 ug
+Sample 1,0.52,0.76,0.08,0.13,CD8,20 ug
+Sample 2,0.42,0.5,0.12,0.28,CD8,20 ug
+Sample 3,1.32,1.07,1.08,0.35,CD8,20 ug
+Sample 4,0.75,0.78,0.43,0.25,CD8,20 ug
+Sample 5,0.83,0.78,0.54,0.29,CD8,20 ug
+Sample 6,0.97,0.88,0.68,0.3,CD8,20 ug
+Sample 1,3.18,3.13,3.33,3.23,CD4/CD8/CD19,Mock
+Sample 2,1.96,1.95,2.04,1.71,CD4/CD8/CD19,Mock
+Sample 3,2.33,2.38,3.02,2.61,CD4/CD8/CD19,Mock
+Sample 4,2.78,2.74,2.79,1.85,CD4/CD8/CD19,Mock
+Sample 5,2.34,2.32,2.62,2.12,CD4/CD8/CD19,Mock
+Sample 6,2.54,2.54,2.81,2.26,CD4/CD8/CD19,Mock
+Sample 1,1.94,1.94,1.89,1.91,CD4/CD8,Mock
+Sample 2,0.4,0.42,0.4,0.45,CD4/CD8,Mock
+Sample 3,1.36,1.37,1.28,1.36,CD4/CD8,Mock
+Sample 4,1.2,1.22,1.19,1.24,CD4/CD8,Mock
+Sample 5,1.0,1.01,0.96,1.01,CD4/CD8,Mock
+Sample 6,1.18,1.2,1.14,1.21,CD4/CD8,Mock
+Sample 1,0.92,0.89,1.49,1.34,CD14,Mock
+Sample 2,1.21,0.9,1.25,0.68,CD14,Mock
+Sample 3,0.72,0.58,1.51,0.56,CD14,Mock
+Sample 4,1.2,0.95,1.42,1.45,CD14,Mock
+Sample 5,1.01,0.83,1.39,1.01,CD14,Mock
+Sample 6,1.04,0.81,1.44,0.93,CD14,Mock
+Sample 1,1.19,1.14,1.38,1.27,CD19,Mock
+Sample 2,1.49,1.46,1.57,1.2,CD19,Mock
+Sample 3,0.92,0.96,1.67,1.19,CD19,Mock
+Sample 4,1.51,1.45,1.54,0.6,CD19,Mock
+Sample 5,1.28,1.25,1.59,1.06,CD19,Mock
+Sample 6,1.3,1.28,1.6,1.01,CD19,Mock
+Sample 1,0.8,0.8,0.8,0.8,CD4,Mock
+Sample 2,0.11,0.11,0.11,0.11,CD4,Mock
+Sample 3,0.88,0.88,0.88,0.88,CD4,Mock
+Sample 4,0.6,0.6,0.6,0.6,CD4,Mock
+Sample 5,0.53,0.53,0.53,0.53,CD4,Mock
+Sample 6,0.67,0.67,0.67,0.67,CD4,Mock
+Sample 1,1.26,1.26,1.26,1.26,CD8,Mock
+Sample 2,0.45,0.45,0.45,0.45,CD8,Mock
+Sample 3,0.58,0.58,0.58,0.58,CD8,Mock
+Sample 4,0.76,0.76,0.76,0.76,CD8,Mock
+Sample 5,0.6,0.6,0.6,0.6,CD8,Mock
+Sample 6,0.65,0.65,0.65,0.65,CD8,Mock
