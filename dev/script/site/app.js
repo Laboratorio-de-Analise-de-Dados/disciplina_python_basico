@@ -4,6 +4,7 @@ const repoName = 'disciplina_python_basico';
 
 // Lista de tarefas/notebooks (caminhos relativos no repo)
 const assignments = [
+  { id: '02-Introducao', title: '02 - Introdução', path: 'dev/script/aulas/teóricas/02-Introdução_algoritmos_2_2026-03-19.ipynb' },
   { id: '04-ObjetosSimples', title: '04 - Objetos Simples', path: 'dev/script/aulas/práticas/04-ObjetosSimples.ipynb' },
   { id: '05-ObjetosCompostos1', title: '05 - Objetos Compostos 1', path: 'dev/script/aulas/práticas/05-ObjetosCompostos1.ipynb' },
   { id: '06-ObjetosCompostos2', title: '06 - Objetos Compostos 2', path: 'dev/script/aulas/práticas/06-ObjetosCompostos2.ipynb' },
@@ -20,17 +21,93 @@ const assignments = [
   { id: '16-VarianciaPratica', title: '16 - Variância Prática', path: 'dev/script/aulas/práticas/16-VariânciaPrática.ipynb' }
 ];
 
-const select = document.getElementById('assignment-select');
+// build assignments UI in panel
+const tasksContainer = document.getElementById('tasks-checks');
 assignments.forEach(a => {
-  const opt = document.createElement('option');
-  opt.value = a.id;
-  opt.textContent = `${a.title} — ${a.path}`;
-  select.appendChild(opt);
+  const div = document.createElement('label');
+  div.className = 'task-check';
+  const cb = document.createElement('input');
+  cb.type = 'checkbox';
+  cb.value = a.id;
+  const span = document.createElement('span');
+  span.textContent = a.title;
+  div.appendChild(cb);
+  div.appendChild(span);
+  tasksContainer.appendChild(div);
 });
 
-const form = document.getElementById('submission-form');
-const openIssuesLink = document.getElementById('open-issues');
-openIssuesLink.href = `https://github.com/${repoOwner}/${repoName}/issues?q=is%3Aissue+label%3Asubmission`;
+// Load students from local file list (embedded or fetched)
+const studentsRaw = `
+1. Guilherme/Disciplina - https://github.com/Laboratorio-de-Analise-de-Dados/disciplina_python_basico.git
+2. Alessandra Conti Gomes de Souza - https://github.com/alecgsbr-web/Aula-Phyton
+3. Aline de Carvalho - https://github.com/aline-bio/python-basico.git
+4. Bianca Nichele Kusma - https://github.com/biancankusma/python_basico.git
+5. Camilla Leitzke Toledo - https://github.com/camilaltoledo0502-art/Entregas-de-atividades-aula-Python-.git
+6. Camilla Maia Moraes - https://github.com/camss36/Python_b-sico_Camilla_Maia.git
+7. Carolina Zem - https://github.com/zemsacional/Aulas_Python
+8. Emanuele Oliveira Jarno - https://github.com/emanuelejarno/Aula-de-mestrado
+9. Gabriela Maria da Costa Ferreira - https://github.com/GbrielaMaria/Python
+10. Gabriela Marino Koerich - https://github.com/GabrielaKoerich/Mestrado-Python-Basico
+11. Hector Hugo Furini - https://github.com/hector-furini/Disciplina-PBp-Python
+12. Isabel de Farias Ribeiro - https://github.com/isabeldfribeiro/Disciplina_python
+13. Isadora Celine Rodrigues Carneiro Camargo - https://github.com/isacarneiro/python_basic_2026
+14. Julia Cardoso da Silva - https://github.com/cardosojulias/Mestrado_python_julia
+15. Julia Weber Ferraboli - https://github.com/jwferraboli/aulagithub.git
+16. Livia Mendes Zacharow Pedroso - https://github.com/Livia-Zacharow/aulas_python_doutorado.git
+17. Lucas Herrero Matias - https://github.com/lherreromatias/Disciplina_pyton
+18. Mario Kujbida - https://github.com/Mario-Kujbida/Python-B-sico.git
+19. Mateus Marchetto - https://github.com/marchettom/Disciplina-Python
+20. Matheus Schipanski - https://github.com/matcow/Aula-Python
+21. Natália Jeanegitz da Silva - https://github.com/njeanegitz/aula-python.git
+22. Natalia Zureck Xavier - https://github.com/NataliaZureck/AulaPythonBasico.git
+23. Nicholas Yuri Naufal - https://github.com/nicholasynaufal/Disciplina_Python.git
+24. Paulo Henrique Moro dos Santos - https://github.com/paulo-moro/disciplina_python_doc
+25. Rafael Uhlik Veiga - https://github.com/R-Zurik/Projeto-Inicial-Teste
+26. Rodrigo Alexandre Lusa - https://github.com/Rodrigo-Lusa/aulas_python_mestrado.git
+27. Sophia Pereira Ozorio - https://github.com/SophiaOzorio/mestrado_python
+28. Thais Agata Veiga Ferreira - https://github.com/tveigaferreira-hue/phyton-.git
+29. Yasmin Soares - https://github.com/yasminsoares01/aulas-Phyton
+`;
+
+function parseStudents(raw){
+  const lines = raw.split(/\n+/).map(l => l.trim()).filter(Boolean);
+  return lines.map(line => {
+    const m = line.match(/^[0-9]+\.\s*(.*?)\s*-\s*(https?:\/\/\S+)$/);
+    if(m) return { name: m[1].trim(), url: m[2].trim() };
+    return null;
+  }).filter(Boolean);
+}
+
+const students = parseStudents(studentsRaw);
+const studentsList = document.getElementById('students-list');
+students.forEach((s, idx) => {
+  const li = document.createElement('li');
+  li.className = 'student-item';
+  li.tabIndex = 0;
+  li.dataset.index = idx;
+  li.innerHTML = `<div><div class="student-name">${s.name}</div><div class="student-link">${s.url.replace('https://github.com/','')}</div></div><div>›</div>`;
+  li.addEventListener('click', () => openStudentPanel(idx));
+  li.addEventListener('keypress', (e) => { if(e.key === 'Enter') openStudentPanel(idx); });
+  studentsList.appendChild(li);
+});
+
+// panel logic
+const panel = document.getElementById('student-panel');
+const panelName = document.getElementById('panel-name');
+const panelGithub = document.getElementById('panel-github');
+const closePanelBtn = document.getElementById('close-panel');
+function openStudentPanel(i){
+  const s = students[i];
+  panelName.textContent = s.name;
+  panelGithub.href = s.url;
+  panelGithub.textContent = s.url;
+  panel.style.display = 'block';
+  panel.setAttribute('aria-hidden','false');
+  // reset checks
+  document.querySelectorAll('#tasks-checks input[type=checkbox]').forEach(cb => cb.checked = false);
+  panel.dataset.current = i;
+}
+closePanelBtn.addEventListener('click', () => { panel.style.display = 'none'; panel.setAttribute('aria-hidden','true'); });
 
 function buildIssueUrl(title, body, labels = ['submission']){
   const base = `https://github.com/${repoOwner}/${repoName}/issues/new`;
@@ -41,35 +118,29 @@ function buildIssueUrl(title, body, labels = ['submission']){
   return `${base}?${params.toString()}`;
 }
 
-function sanitize(s){
-  return String(s).trim();
-}
+document.getElementById('panel-open-issues').addEventListener('click', () => {
+  const idx = panel.dataset.current;
+  if(idx == null) return alert('Selecione um aluno.');
+  const s = students[idx];
+  const checked = Array.from(document.querySelectorAll('#tasks-checks input:checked')).map(cb => cb.value);
+  if(checked.length === 0) return alert('Marque pelo menos uma tarefa.');
 
-form.addEventListener('submit', (ev) => {
-  ev.preventDefault();
-  const name = sanitize(document.getElementById('student-name').value);
-  const url = sanitize(document.getElementById('repo-url').value);
-  const assignmentId = document.getElementById('assignment-select').value;
-  const assignment = assignments.find(a => a.id === assignmentId);
-  if(!name || !url || !assignment) return alert('Preencha os campos.');
-
-  const title = `Submissão: ${assignment.title} — ${name}`;
-  const body = `Aluno: ${name}%0A\nArquivo/Repositório: ${url}%0A\nTarefa: ${assignment.path}%0A\n\n(Edite a issue se quiser adicionar mais detalhes)`;
-
-  const issueUrl = buildIssueUrl(title, decodeURIComponent(body), ['submission']);
-  // Abrir em nova aba
-  window.open(issueUrl, '_blank');
+  // abrir uma issue por tarefa marcada
+  checked.forEach(id => {
+    const a = assignments.find(x => x.id === id);
+    const title = `Submissão: ${a.title} — ${s.name}`;
+    const body = `Aluno: ${s.name}%0A\nRepositório/Arquivo: ${s.url}%0A\nTarefa: ${a.path}%0A\n\n(Registro via site)`;
+    const url = buildIssueUrl(title, decodeURIComponent(body), ['submission']);
+    window.open(url, '_blank');
+  });
 });
 
-// Cópia em Markdown para colar localmente ou em outro lugar
-document.getElementById('copy-markdown').addEventListener('click', () => {
-  const name = sanitize(document.getElementById('student-name').value);
-  const url = sanitize(document.getElementById('repo-url').value);
-  const assignmentId = document.getElementById('assignment-select').value;
-  const assignment = assignments.find(a => a.id === assignmentId);
-  if(!name || !url || !assignment) return alert('Preencha os campos antes de copiar.');
-  const md = `**Submissão**: ${assignment.title}\n**Aluno**: ${name}\n**Repositório/Arquivo**: ${url}\n**Caminho no repo**: ${assignment.path}`;
-  navigator.clipboard.writeText(md).then(() => {
-    alert('Markdown copiado para a área de transferência.');
-  }, () => alert('Não foi possível copiar.'));
+document.getElementById('panel-copy').addEventListener('click', () => {
+  const idx = panel.dataset.current;
+  if(idx == null) return alert('Selecione um aluno.');
+  const s = students[idx];
+  const checked = Array.from(document.querySelectorAll('#tasks-checks input:checked')).map(cb => assignments.find(a => a.id === cb.value).title);
+  if(checked.length === 0) return alert('Marque pelo menos uma tarefa.');
+  const md = `**Aluno**: ${s.name}\n**Repositório**: ${s.url}\n**Tarefas enviadas**:\n- ${checked.join('\n- ')}`;
+  navigator.clipboard.writeText(md).then(() => alert('Resumo copiado')).catch(()=>alert('Não foi possível copiar'));
 });

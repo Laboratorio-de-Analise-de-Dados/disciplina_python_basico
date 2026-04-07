@@ -10,38 +10,31 @@
     <main class="container">
       <h1>Registrar submissão de tarefa</h1>
 
-      <section class="card">
-        <form id="submission-form">
-          <label>Seu nome
-            <input id="student-name" type="text" placeholder="Ex: Maria Silva" required>
-          </label>
+      <section class="card grid">
+        <aside class="students">
+          <h2>Alunos</h2>
+          <ul id="students-list" class="students-list"></ul>
+        </aside>
 
-          <label>Link do repositório ou arquivo no GitHub
-            <input id="repo-url" type="url" placeholder="https://github.com/usuario/repositorio" required>
-          </label>
+        <div class="panel" id="student-panel" aria-hidden="true">
+          <button id="close-panel" class="close">×</button>
+          <div class="panel-content">
+            <h2 id="panel-name">Aluno</h2>
+            <p><a id="panel-github" href="#" target="_blank" rel="noopener" class="link">Ver repositório</a></p>
 
-          <label>Atribuição
-            <select id="assignment-select"></select>
-          </label>
+            <form id="panel-form">
+              <fieldset>
+                <legend>Marcar tarefas que o aluno enviou</legend>
+                <div id="tasks-checks" class="tasks-checks"></div>
+              </fieldset>
 
-          <div class="actions">
-            <button id="create-issue" type="submit">Abrir Issue pré-preenchida</button>
-            <button id="copy-markdown" type="button">Copiar Markdown</button>
+              <div class="actions">
+                <button id="panel-open-issues" type="button">Abrir Issues para selecionadas</button>
+                <button id="panel-copy" type="button" class="secondary">Copiar resumo (Markdown)</button>
+              </div>
+            </form>
           </div>
-        </form>
-      </section>
-
-      <section class="card monitor">
-        <h2>Para monitores</h2>
-        <p>Fluxo recomendado para armazenamento colaborativo (sem servidor):</p>
-        <ol>
-          <li>O aluno clica em <strong>Abrir Issue pré-preenchida</strong> e cria a issue no repositório.</li>
-          <li>Os monitores abrem a lista de issues filtrando por <code>label:submission</code> e colocam <code>label:corrected</code> quando corrigirem.</li>
-        </ol>
-        <p>
-          <a id="open-issues" class="link" target="_blank" rel="noopener">Ver issues de submissões no GitHub</a>
-        </p>
-        <p class="note">Observação: esta página gera links para criar issues no repositório do curso; as issues servem como registro central colaborativo.</p>
+        </div>
       </section>
 
       <footer>
