@@ -7,34 +7,28 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <header class="topbar">
+      <div class="wrap">
+        <div class="brand">
+          <strong>Monitoria</strong>
+          <small>Disciplina Python Básico</small>
+        </div>
+        <div class="actions-top">
+          <button id="export-btn" class="secondary">Exportar CSV</button>
+          <button id="export-reviewers-btn" class="secondary">Exportar 'Pode revisar'</button>
+        </div>
+      </div>
+    </header>
+
     <main class="container">
       <h1>Registrar submissão de tarefa</h1>
 
-      <section class="card grid">
-        <aside class="students">
-          <h2>Alunos</h2>
-          <ul id="students-list" class="students-list"></ul>
-        </aside>
-
-        <div class="panel" id="student-panel" aria-hidden="true">
-          <button id="close-panel" class="close">×</button>
-          <div class="panel-content">
-            <h2 id="panel-name">Aluno</h2>
-            <p><a id="panel-github" href="#" target="_blank" rel="noopener" class="link">Ver repositório</a></p>
-
-            <form id="panel-form">
-              <fieldset>
-                <legend>Marcar tarefas que o aluno enviou</legend>
-                <div id="tasks-checks" class="tasks-checks"></div>
-              </fieldset>
-
-              <div class="actions">
-                <button id="panel-open-issues" type="button">Abrir Issues para selecionadas</button>
-                <button id="panel-copy" type="button" class="secondary">Copiar resumo (Markdown)</button>
-              </div>
-            </form>
-          </div>
+      <section class="card">
+        <div class="search-area">
+          <input id="search" class="search big" placeholder="Buscar aluno por nome..." aria-label="Buscar aluno">
         </div>
+
+        <div id="students-grid" class="students-grid" aria-live="polite"></div>
       </section>
 
       <footer>
