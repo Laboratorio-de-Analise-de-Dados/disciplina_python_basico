@@ -6,3 +6,5 @@ __pycache__/
 praticas_old/
 exercicios_resolvidos/
 notebook-wagner/
+credentials.json
+token.json
