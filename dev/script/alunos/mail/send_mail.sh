@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python.exe pymail.py --noauth_local_webserver
+python pymail.py --noauth_local_webserver
