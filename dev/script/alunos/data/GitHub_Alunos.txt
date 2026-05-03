@@ -14,7 +14,7 @@
 14. Julia Cardoso da Silva - https://github.com/cardosojulias/Mestrado_python_julia
 15. Julia Weber Ferraboli - https://github.com/jwferraboli/aulagithub.git
 16. Livia Mendes Zacharow Pedroso - https://github.com/Livia-Zacharow/aulas_python_doutorado.git
-17. Lucas Herrero Matias - https://github.com/lherreromatias/Disciplina_pyton
+17. Lucas Herrero Matias - https://github.com/lherreromatias/Disciplina_python
 18. Mario Kujbida - https://github.com/Mario-Kujbida/Python-B-sico.git
 19. Mateus Marchetto - https://github.com/marchettom/Disciplina-Python
 20. Matheus Schipanski - https://github.com/matcow/Aula-Python
