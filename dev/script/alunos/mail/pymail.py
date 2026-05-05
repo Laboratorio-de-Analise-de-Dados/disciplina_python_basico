@@ -1,9 +1,11 @@
 import ezgmail as eg
 from time import sleep
 import pandas as pd
+from joblib import load
+import os
 
 
-def resultado_conceito() -> pd.DataFrame:
+def resultado_conceito_teste() -> pd.DataFrame:
     '''
         Cria um DataFrame com os resultados dos alunos.
             Returns:
@@ -88,9 +90,11 @@ SIAPE: 2175165
     return None
 
 if __name__ == '__main__':
-    resultados = resultado_conceito()
+    # Importando os dados dos alunos a partir do arquivo salvo
+    resultados = load("./../data/df_alunos")
+
+    # Enviando os emails para os alunos
     for i in range(len(resultados)):
         envia = resultados.iloc[i].to_frame()
-        print(envia)
         send_email_base(resultados=envia)
         sleep(20)
