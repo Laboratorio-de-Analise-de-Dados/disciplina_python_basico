@@ -47,10 +47,25 @@ def send_email_base(
             Returns:
                 None: Esta função não retorna nada.
     '''
+    # Nome do aluno
+    nome_completo = resultados.loc['Nome Aluno'].values[0]
     nome_aluno = resultados.loc['Nome Aluno'].values[0].split(' ')[0]
-    resultados_html = resultados.drop(index='E-mail').to_html()
+    
+    # E-mail do aluno
     email = resultados.loc['E-mail'].values[0]
+    email += ';gfsilveira@gmail.com'
+    
+    # Convertendo para HTML
+    resultados = resultados.drop(index='E-mail')
+    resultados_html = resultados.to_html()
 
+    # Buscando notas do aluno
+    caminho = "./../data/notas/"
+    df_notas = load(f"{caminho}0{resultados.columns[0]}_{nome_completo}")
+    df_notas_html = df_notas.T.to_html()
+
+
+    # Escrevendo mensagem personalizada para o aluno
     mensagem = f'''    
 Bom dia {nome_aluno}. Como está?<br><br>
 
@@ -60,7 +75,11 @@ Segundo o seu desempenho nas atividades e de acordo com as regras do PPGBB, seu 
 
 {resultados_html}<br><br>
 
+{df_notas_html}<br><br>
+
 Caso tenha alguma objeção, você têm 24h à partir de agora para responder esse e-mail. Nós analisaremos o recurso e, caso seja procedente, entramos em contato.<br><br>
+
+O gabarito consta em nosso replositório, https://github.com/Laboratorio-de-Analise-de-Dados/disciplina_python_basico/tree/main/dev/script/exercicios_resolvidos.<br><br>
 
 Após esse prazo, as notas serão enviadas ao PPGBB.<br><br>
 
@@ -81,13 +100,19 @@ CIC, Curitiba, PR, Brazil<br>
 SIAPE: 2175165
     '''
 
-    eg.send(
-        recipient=email,
-        subject=subject,
-        body=mensagem,
-        mimeSubtype='html'
-    )
+    try:
+        eg.send(
+            recipient=email,
+            subject=subject,
+            body=mensagem,
+            mimeSubtype='html'
+        )
+        # print(mensagem)
+    except Exception as e:
+        print(f"Erro ao enviar email para {email}: {e}")
+
     return None
+
 
 if __name__ == '__main__':
     # Importando os dados dos alunos a partir do arquivo salvo
