@@ -53,7 +53,6 @@ def send_email_base(
     
     # E-mail do aluno
     email = resultados.loc['E-mail'].values[0]
-    email += ';gfsilveira@gmail.com'
     
     # Convertendo para HTML
     resultados = resultados.drop(index='E-mail')
@@ -107,7 +106,7 @@ SIAPE: 2175165
             body=mensagem,
             mimeSubtype='html'
         )
-        # print(mensagem)
+        print(f"Email enviado para {email}")
     except Exception as e:
         print(f"Erro ao enviar email para {email}: {e}")
 
