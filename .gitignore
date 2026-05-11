@@ -4,7 +4,7 @@ __pycache__/
 .mypy_cache/
 .coverage
 praticas_old/
-exercicios_resolvidos/
+# exercicios_resolvidos/
 notebook-wagner/
 credentials.json
 token.json
